@@ -19,8 +19,8 @@
  */
 define( 'AS3CF_SETTINGS', serialize( array(
 	'provider' => 'aws',
-	'access-key-id' => 'AKIAUTG5TJOFVND5PROZ',
-	'secret-access-key' => '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',
+	'access-key-id' => 'AKIAUTG5TJOF2Q6RL7XG',
+	'secret-access-key' => 'hvKSxpMSmRtOdhedrodsM0wjkMjwiGAvKwpW9fad',
 ) ) );
 
 // ** Database settings - You can get this info from your web host ** //
