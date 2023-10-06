@@ -867,6 +867,8 @@ $_old_files = array(
 	'wp-includes/images/wlw',
 	'wp-includes/wlwmanifest.xml',
 	'wp-includes/random_compat',
+	// 6.4
+	'wp-includes/navigation-fallback.php',
 );
 
 /**
@@ -997,6 +999,7 @@ $_new_bundled_files = array(
 	'themes/twentytwentyone/'   => '5.6',
 	'themes/twentytwentytwo/'   => '5.9',
 	'themes/twentytwentythree/' => '6.1',
+	'themes/twentytwentyfour/'  => '6.4',
 );
 
 /**
@@ -1805,7 +1808,7 @@ function _upgrade_422_find_genericons_files_in_folder( $directory ) {
 	$dirs = glob( $directory . '*', GLOB_ONLYDIR );
 	$dirs = array_filter(
 		$dirs,
-		static function( $dir ) {
+		static function ( $dir ) {
 			/*
 			 * Skip any node_modules directories.
 			 *
