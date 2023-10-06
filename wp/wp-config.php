@@ -17,6 +17,11 @@
  *
  * @package WordPress
  */
+define( 'AS3CF_SETTINGS', serialize( array(
+	'provider' => 'aws',
+	'access-key-id' => 'AKIAUTG5TJOFVND5PROZ',
+	'secret-access-key' => '/SiwApzqIiFhQLRgl+iCSYn3DtGsRYh8hGshmYwL',
+) ) );
 
 // ** Database settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
