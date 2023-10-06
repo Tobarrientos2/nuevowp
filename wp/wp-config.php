@@ -17,10 +17,11 @@
  *
  * @package WordPress
  */
-define( 'AS3CF_SETTINGS', serialize( array(
+
+ define( 'AS3CF_SETTINGS', serialize( array(
 	'provider' => 'aws',
-	'access-key-id' => 'AKIAUTG5TJOF2Q6RL7XG',
-	'secret-access-key' => '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',
+	'access-key-id' => 'AKIAUTG5TJOF6V7WNXVT',
+	'secret-access-key' => 'lkTPbbKbCNEUY6ApHYN7oUbZpYPeqYWcPgq2MTaf',
 ) ) );
 
 // ** Database settings - You can get this info from your web host ** //
