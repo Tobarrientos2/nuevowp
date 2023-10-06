@@ -20,13 +20,13 @@
 
 // ** Database settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define( 'DB_NAME', 'wrestlingclubconcon' );
+define( 'DB_NAME', 'wrestlingclub' );
 
 /** Database username */
-define( 'DB_USER', 'mq9hc5zuvbrusuz6s4lm' );
+define( 'DB_USER', '9xlxshutulq85k9jb8fr' );
 
 /** Database password */
-define( 'DB_PASSWORD', 'pscale_pw_TPt91TTYwIrih3ABSSMs4nbBzqaHWM8XhDy30RaSlMv' );
+define( 'DB_PASSWORD', 'pscale_pw_aAJWR7jwPkfsRwfUQmUMIp3lDgee1JEoluaenr3dBgv' );
 
 /** Database hostname */
 define( 'DB_HOST', 'aws.connect.psdb.cloud' );
