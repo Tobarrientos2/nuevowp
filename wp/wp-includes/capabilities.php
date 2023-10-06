@@ -1108,20 +1108,20 @@ function is_super_admin( $user_id = false ) {
  * @return bool True on success, false on failure. This can fail when the user is
  *              already a super admin or when the `$super_admins` global is defined.
  */
-function grant_super_admin( $user_id ) {
-	// If global super_admins override is defined, there is nothing to do here.
-	if ( isset( $GLOBALS['super_admins'] ) || ! is_multisite() ) {
-		return false;
-	}
+// function grant_super_admin( $user_id ) {
+// 	// If global super_admins override is defined, there is nothing to do here.
+// 	if ( isset( $GLOBALS['super_admins'] ) || ! is_multisite() ) {
+// 		return false;
+// 	}
 
-	/**
-	 * Fires before the user is granted Super Admin privileges.
-	 *
-	 * @since 3.0.0
-	 *
-	 * @param int $user_id ID of the user that is about to be granted Super Admin privileges.
-	 */
-	do_action( 'grant_super_admin', $user_id );
+// 	/**
+// 	 * Fires before the user is granted Super Admin privileges.
+// 	 *
+// 	 * @since 3.0.0
+// 	 *
+// 	 * @param int $user_id ID of the user that is about to be granted Super Admin privileges.
+// 	 */
+// 	do_action( 'grant_super_admin', $user_id );
 
 	// Directly fetch site_admins instead of using get_super_admins().
 	$super_admins = get_site_option( 'site_admins', array( 'admin' ) );
